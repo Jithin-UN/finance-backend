@@ -33,3 +33,14 @@ GET /api/dashboard (Analyst/Admin)
 ## Assumptions
 - JWT used for auth
 - MongoDB local instance
+
+- ### Example API Usage
+
+POST /api/auth/register  
+POST /api/auth/login  
+
+Use token in header:
+Authorization: <token>
+
+POST /api/records  
+GET /api/dashboard 
