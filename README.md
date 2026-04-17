@@ -34,7 +34,7 @@ GET /api/dashboard (Analyst/Admin)
 - JWT used for auth
 - MongoDB local instance
 
-- ### Example API Usage
+### Example API Usage
 
 POST /api/auth/register  
 POST /api/auth/login  
